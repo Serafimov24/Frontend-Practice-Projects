@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>card quantity</title>      
+  </head>
+  <body>
+    <button onclick="
+      console.log(`съдържание на количката: ${kolichka}`);
+      ">Покажи количество</button>
+
+    <button onclick="
+    kolichka = kolichka + 1;
+    console.log(`съдържание на количката: ${kolichka}`);
+    ">Добави в количка</button>
+
+    <button onclick="
+    kolichka = kolichka + 2;
+    console.log(`съдържание на количката: ${kolichka}`);
+    ">+2</button>
+
+    <button onclick="
+    kolichka = kolichka + 3;
+    console.log(`съдържание на количката: ${kolichka}`);
+    ">+3</button>
+
+    <button onclick="
+    kolichka = 0;
+    console.log('Количката беше изпразнена');
+    console.log(`съдържание на количката: ${kolichka}`);
+    ">Ресет</button>
+
+    <script>
+      let kolichka = 0;
+      
+    </script>
+  </body>
+</html>
